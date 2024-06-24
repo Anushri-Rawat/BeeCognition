@@ -1,0 +1,19 @@
+.about-sec {
+  margin-top: 5%;
+  .about-content {
+    text-align: center;
+    margin: 30px auto 50px;
+    h4 {
+      font-weight: 700;
+      font-size: 32px;
+    }
+    ul {
+      text-align: left;
+      width: 90%;
+      margin: 0 auto;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}

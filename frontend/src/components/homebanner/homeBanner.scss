@@ -1,0 +1,38 @@
+.home-banner {
+  width: 100%;
+  height: 560px;
+  background: url(../../../public/images/slider-bg.webp) 0 0 / cover no-repeat;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    .main-banner {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 3.5rem;
+      align-items: center;
+      video {
+        width: 500px;
+        height: 470px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .right-content {
+        h3 {
+          color: #fff;
+          font-size: 40px;
+          p {
+            color: #f0a805;
+            font-size: 24px;
+            padding-top: 5px;
+          }
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

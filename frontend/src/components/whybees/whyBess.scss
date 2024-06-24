@@ -1,0 +1,69 @@
+.bees-sec {
+  padding: 5% 0 0;
+  .container {
+    .bees-important {
+      width: 100%;
+      gap: 30px;
+      justify-content: center;
+      padding-bottom: 30px;
+      padding-top: 20px;
+      .bee-important-card {
+        width: calc(25% - 30px);
+        border-radius: 40px;
+        padding: 25px;
+        h1 {
+          font-size: 60px;
+          color: #050f1c;
+          margin-top: 1rem;
+        }
+        p {
+          margin-bottom: 0;
+          font-weight: 600;
+        }
+      }
+    }
+    .quote-part {
+      width: 75%;
+      margin: 5% auto;
+      background-image: linear-gradient(to right, #ffc8c8 37%, #4b5dff3b);
+      border-radius: 25px;
+      box-shadow: 0 3px 16px #7d7d7d29;
+      padding: 15px;
+      position: relative;
+      .quote-left {
+        width: 70%;
+        padding-left: 5%;
+        position: relative;
+        i {
+          font-weight: 600;
+        }
+        p {
+          font-size: 12px;
+          margin-top: 4px;
+          margin-bottom: 0;
+        }
+      }
+      .quote-left:after,
+      .quote-left:before {
+        content: " ";
+        position: absolute;
+        background: url(./images/quotes-icon.webp) no-repeat;
+        width: 26px;
+        height: 23px;
+      }
+      .quote-left:before {
+        left: 0;
+        top: 0;
+      }
+      .quote-left:after {
+        right: 55px;
+        top: 45px;
+      }
+      .quote-right {
+        position: absolute;
+        right: 16px;
+        top: -92px;
+      }
+    }
+  }
+}

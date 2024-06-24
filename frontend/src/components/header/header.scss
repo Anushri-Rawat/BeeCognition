@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  margin-bottom: 15px;
+  .logo-div {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    img {
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .nav-items {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      &:hover {
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+}
