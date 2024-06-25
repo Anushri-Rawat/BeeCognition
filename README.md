@@ -24,14 +24,12 @@ Beecognition is a comprehensive platform designed to monitor and classify bee ac
   - **Black dot:** Detected a wasp
 
 ### Demo
-Check out the demo video of the Beecognition project [here](https://res.cloudinary.com/drz6w1d5q/video/upload/v1719299409/beecognition-demo-video_v3krmt.mp4).
-Or
-Watch the demo video of the Beecognition project:
+Watch the demo video of the Beecognition project: [Beecognition Demo Video](https://res.cloudinary.com/drz6w1d5q/video/upload/v1719299409/beecognition-demo-video_v3krmt.mp4)
 
-<video width="640" height="360" controls>
-  <source src="https://res.cloudinary.com/drz6w1d5q/video/upload/v1719299409/beecognition-demo-video_v3krmt.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+**OR** 
+
+![](./beecognition-demo-video.mp4)
+
 
 ### Technologies Involved
 
