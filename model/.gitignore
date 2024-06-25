@@ -1,3 +1,6 @@
 __pycache__
 *.log
 log
+env
+*.mp4
+*.avi

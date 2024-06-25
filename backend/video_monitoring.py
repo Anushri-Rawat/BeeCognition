@@ -11,11 +11,11 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 
 # Directory to save uploaded files
-UPLOAD_DIRECTORY = r"C:\Users\rawat\Desktop\BeeAlarmed"
+UPLOAD_DIRECTORY = r"C:\Users\rawat\Desktop\beecognition\model"
 os.makedirs(UPLOAD_DIRECTORY, exist_ok=True)  # Create the directory if it doesn't exist
 
 monitoring_process = None
-script_path = r"C:\Users\rawat\Desktop\BeeAlarmed\main.py"
+script_path = r"C:\Users\rawat\Desktop\beecognition\model\main.py"
 
 def start_monitoring(video_path: Optional[str] = None):
     global monitoring_process
@@ -47,6 +47,7 @@ async def upload_video(file: UploadFile = File(...)):
 async def start_monitoring_endpoint(background_tasks: BackgroundTasks,file_location: str):
     if (file_location):
         print(f"File location received: {file_location}")
+        print(f"script path: {script_path}")
         background_tasks.add_task(start_monitoring, file_location)
         return {"message": "Monitoring started", "file_location": file_location}
     else:

@@ -22,7 +22,7 @@ def test_model_loading():
         logger.info("Model loaded successfully")
 
         # Load a test image
-        # img_path = 'C:/Users/rawat/Desktop/beealarmed/Images/2020.09.16_F_278605_T_1_output.avi.jpeg'  # Replace with an actual test image path
+        # img_path = 'C:/Users/rawat/Desktop/beecognition/model/Images/2020.09.16_F_278605_T_1_output.avi.jpeg'  # Replace with an actual test image path
         img_path="C:/Users/rawat/Downloads/pymtwuqdwxadi9d9lizh.webp"
         img = cv2.imread(img_path)
         img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

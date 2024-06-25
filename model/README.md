@@ -53,7 +53,7 @@ Look close, you can see the varroa mite.
 
 ## You want to give it a try?
 
-Just check out this repository and install the dependencies:
+To use this model,Just check out this repository and install the dependencies:
 
 ```
 git clone https://github.com/BeeCognition/BeeCognition.git
@@ -69,6 +69,7 @@ Download the pre trained neural network and unzip it to ./SavedModel: <a href="h
 wget "https://raspbee.de/FH/Github/SavedModel_20201121.zip" -O SavedModel_20201121.zip
 unzip SavedModel_20201121.zip -d ./SavedModel
 ```
+Once this model is installed,run convert_model.py file to convert the model to h5
 Note: _I will publish the dataset and neural network once I finished working on them. The dataset is currently based on manually selected and annotated images (>6000)._
 
 Download the example video file: <a href="https://raspbee.de/FH/Github/cooling_varroa_small.avi">Sample Video</a> (314 MB)
@@ -82,7 +83,7 @@ wget "https://raspbee.de/FH/Github/cooling_varroa_small.avi"
 Now start the monitoring system by calling:
 
 ```
-python3 main.py --video=./cooling_varroa_small.avi
+python main.py --video=./cooling_varroa_small.avi
 ```
 
 This is what you should get:
