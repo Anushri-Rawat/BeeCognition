@@ -48,45 +48,19 @@ Watch the demo video of the Beecognition project: [Beecognition Demo Video](http
 - **Scikit-learn:** For additional machine learning utilities and functions.
 
 ### Installation
-
-#### Prerequisites 
-first install git in your system: 
-`https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-64-bit.exe`
-
-then install github desktop: 
-`https://central.github.com/deployments/desktop/desktop/latest/win32
-`
 1. Clone the repository:
    ```bash
    git clone https://github.com/Anushri-Rawat/BeeCognition.git
-   ```
 
 2. Run Frontend setup
    ```bash
    cd beecognition/frontend
    npm install
    npm run dev
-   ```
 
 3. Run Backend setup
-   ```cmd
-   # navigate to project root directory
-   .\env\scripts\activate
-   ```
-
    ```bash
    cd beecognition/backend
    pip install
    python main.py
-   ```
 
-4. To run the model
-   ```cmd
-   # navigate to project root directory
-   .\env\scripts\activate
-   ```
-
-   ```bash
-   cd model
-   python main.py --video video_path
-   ```

@@ -1,0 +1,10 @@
+# Virtual environment
+# To run on your local machine, create a .env file in the root directory using:
+# python -m venv env
+
+# Each time before starting the backend or running the model in the local machine, you must activate the virtual environment in the root directory using:
+# .\env\scripts\activate
+
+/env
+
+/diagrams_and_reference_material

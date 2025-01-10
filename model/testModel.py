@@ -15,15 +15,14 @@ def display_image(img):
 
 def test_model_loading():
     try:
-        model_path = 'C:/Users/rawat/Downloads/NewSavedModel/model.h5'
+        model_path = 'D:\programforfun\collegeprograms\BeeCognition\model\requirements.txt'
         logger.debug(f"Loading model from: {model_path}")
         model = tf.keras.models.load_model(model_path)
         model.trainable = False
         logger.info("Model loaded successfully")
 
         # Load a test image
-        # img_path = 'C:/Users/rawat/Desktop/beecognition/model/Images/2020.09.16_F_278605_T_1_output.avi.jpeg'  # Replace with an actual test image path
-        img_path="C:/Users/rawat/Downloads/pymtwuqdwxadi9d9lizh.webp"
+        img_path = 'D:\programforfun\collegeprograms\BeeCognition\model\Images\2020.09.16_F_396925_T_2_output.avi.jpeg'  # Replace with an actual test image path
         img = cv2.imread(img_path)
         img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         img_resized = tf.image.resize(img_rgb, [150, 75])  # Resize to the expected input shape
